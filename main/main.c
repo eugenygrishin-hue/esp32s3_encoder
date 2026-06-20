@@ -24,7 +24,7 @@ static void button_event_cb(void *arg, void *usr_data)
         ESP_LOGW(TAG, "🛑 Кнопка НАЖАТА!");
         
         // Запоминаем текущее аппаратное значение, чтобы вычитать его при расчете позиции
-        offset_position = last_raw_position;
+        offset_position = last_raw_position;  
         ESP_LOGE(TAG, "🔄 Счетчик энкодера программно сброшен в 0!");
         ESP_LOGI(TAG, "►►► Текущая позиция: 0");
     } else if (event == BUTTON_PRESS_UP) {
