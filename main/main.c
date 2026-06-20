@@ -12,7 +12,7 @@ static const char *TAG = "ENCODER_OFFICIAL";
 #define ENCODER_CLICK_GPIO    6
 
 // Две глобальные переменные для программного сброса
-static int32_t last_raw_position = 0; // Сюда сохраняем последнее «сырое» значение перед сбросом
+static int32_t last_raw_position = 0; // Сюда сохраняем последнее «сырое» значение перед сбросом  
 static int32_t offset_position = 0;   // Накопленное смещение (офсет)
 
 // 1. ОБРАБОТЧИК КЛИКОВ КНОПКИ
