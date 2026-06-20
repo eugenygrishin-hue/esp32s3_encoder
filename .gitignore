@@ -1,4 +1,16 @@
-build/
-sdkconfig
-sdkconfig.old
-.managed_components/
+# ESP-IDF 
+build/ 
+sdkconfig 
+sdkconfig.old 
+dependencies
+.lock 
+managed_components/ 
+
+# Espressif-IDE (Eclipse)  Clangd 
+.settings/ 
+.project 
+.cproject 
+.clangd/ 
+
+# macOS 
+.DS_Store
