@@ -1,3 +1,3 @@
 idf_component_register(SRCS "main.c"
                        INCLUDE_DIRS "."
-                       PRIV_REQUIRES ir_receiver encoder esp_driver_gpio espressif__knob button esp_driver_rmt)
+                       PRIV_REQUIRES knob wifi_manager ssd1306 esp_netif esp_driver_gpio driver)                     				 

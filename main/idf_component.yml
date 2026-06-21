@@ -16,3 +16,4 @@ dependencies:
   #   public: true
   espressif/button: '*'
   espressif/knob: '*'
+  espressif/ssd1306: ^1.0.0
